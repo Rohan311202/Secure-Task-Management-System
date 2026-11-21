@@ -1,0 +1,32 @@
+
+# Sensitive account and task data
+accounts*.json
+tasks*.json
+tokens*.json
+
+# Backup and recovery files
+security_backup*
+security_before*
+accounts_backup*
+accounts_recovery_backup*
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+
+# Audit logs
+*.log
